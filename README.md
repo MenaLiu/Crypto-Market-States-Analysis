@@ -9,7 +9,18 @@ This project investigates:
 - Why compare Bitcoin and the US Dollar?  
 - Can clustering reveal meaningful market regimes?  
 - Do markets move together or diverge?  
-- How can PCA help visualize complex financial data?  
+- How can PCA help visualize complex financial data?
+
+## 📂 Dataset
+This project uses two original raw datasets:  
+- **Cryptocurrency_Trading_Dataset.csv** → Bitcoin trading data (price, volume, volatility, etc.)  
+- **US Dollar Index Futures Historical Data.csv** → USD Index futures data  
+
+These two datasets were merged and cleaned into a single dataset:  
+- **Cleaned Data.csv** → Integrated dataset containing aligned BTC and USD features, used as the starting point for all analyses.  
+
+To keep the workflow reproducible, all R scripts begin from `Cleaned Data.csv`.  
+The raw datasets are included for reference.
 
 ## 🔧 Methods
 - **Data Cleaning**: Outlier replacement with median, standardization  
