@@ -1,6 +1,6 @@
 # Crypto-Market-States-Analysis
 
-A data analytics project exploring the interaction between **Bitcoin** and the **US Dollar Index (DXY)**.  
+This is a data analytics project exploring the interaction between **Bitcoin** and the **US Dollar Index (DXY)**.  
 The study applies **clustering** and **PCA** to uncover distinct market states, track their evolution, and evaluate hidden correlations.
 
 ## ✨ Project Overview
