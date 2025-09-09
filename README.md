@@ -26,11 +26,3 @@ This project asks:
 
 - PCA clustering clearly separated bullish, bearish, and transitional regimes  
 - Bitcoin and USD show periods of **inverse correlation**, but also **synchronized moves** during global shocks  
-
-## 🚀 How to Run
-1. Clone this repo  
-2. Install R dependencies (`tidyverse`, `factoextra`, `cluster`)  
-3. Run scripts in `Code/` folder for data cleaning, clustering, and PCA  
-4. Open `Dashboard/Crypto-Market.pbix` in Power BI to explore the interactive visualizations  
-
-## 📂 Repository Structure
