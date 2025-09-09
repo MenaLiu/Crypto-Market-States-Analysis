@@ -7,8 +7,8 @@ The study applies **clustering** and **PCA** to uncover distinct market states, 
 Cryptocurrency markets are volatile and influenced by global macroeconomic conditions.  
 This project asks:
 - Why compare Bitcoin and the US Dollar?  
-- Can clustering reveal meaningful **market regimes**?  
-- Do markets **move together** or diverge?  
+- Can clustering reveal meaningful market regimes?  
+- Do markets move together or diverge?  
 - How can PCA help visualize complex financial data?  
 
 ## 🔧 Methods
