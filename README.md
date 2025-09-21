@@ -3,7 +3,7 @@
 This is a data analytics project exploring the interaction between **Bitcoin** and the **US Dollar Index (DXY)**.  
 The study applies **clustering** and **PCA** to uncover distinct market states, track their evolution, and evaluate hidden correlations.
 
-## ✨ Problem Statement
+## Problem Statement
 Cryptocurrency markets are volatile and strongly influenced by macroeconomic factors.  
 This project investigates:
 - Why compare Bitcoin and the US Dollar?  
@@ -11,7 +11,7 @@ This project investigates:
 - Do markets move together or diverge?  
 - How can PCA help visualize complex financial data?
 
-## 📂 Dataset
+## Dataset
 This project uses two original raw datasets:  
 - **Cryptocurrency_Trading_Dataset.csv** → Bitcoin trading data (price, volume, volatility, etc.)  
 - **US Dollar Index Futures Historical Data.csv** → USD Index futures data  
@@ -22,14 +22,14 @@ These two datasets were merged and cleaned into a single dataset:
 To keep the workflow reproducible, all R scripts begin from `Cleaned Data.csv`.  
 The raw datasets are included for reference.
 
-## 🔧 Methods
+## Methods
 - **Data Cleaning**: Outlier replacement with median, standardization  
 - **Clustering**: K-means (k=2–10), evaluated with WCSS & Silhouette score  
 - **Dimensionality Reduction**: PCA to capture variance and visualize clusters  
 - **Anomaly Detection**: Distance-to-centroid approach to flag unusual days  
 - **Visualization**: ggplot2 (R) and Power BI dashboards  
 
-## 📊 Key Findings
+## Key Findings
 - Identified **four distinct market states**:  
   1. *Bitcoin-Only Party* (BTC dominance)  
   2. *Calm Days* (low volatility, stable USD)  
@@ -40,7 +40,7 @@ The raw datasets are included for reference.
 - Bitcoin and USD showed periods of **inverse correlation**, but also **synchronized trends** during global shocks  
 - Anomalies aligned with **extreme BTC price spikes**  
 
-## 🖼️ Dashboard Screenshots
+## Dashboard Screenshots
 ### Introduction
 ![](Power%20BI%20Dashboard/Introduction.png)
 
