@@ -40,7 +40,7 @@ The raw datasets are included for reference.
 - Bitcoin and USD showed periods of **inverse correlation**, but also **synchronized trends** during global shocks  
 - Anomalies aligned with **extreme BTC price spikes**  
 
-## Dashboard Screenshots
+## Power BI Dashboard Screenshots
 ### Introduction
 ![](Power%20BI%20Dashboard/Introduction.png)
 
